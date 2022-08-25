@@ -1,0 +1,32 @@
+{
+    "name": "gonghui/rabbit",
+    "description": "rabbit for laravel",
+    "authors": [
+        {
+            "name": "Bob",
+            "email": "amgh@vip.qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "ext-amqp": ">=1.4.0",
+        "illuminate/support": "5.8.*|^6.0|^7.0|^8.0|^9.0",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "^0.9.4",
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Gonghui\\Queue\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
