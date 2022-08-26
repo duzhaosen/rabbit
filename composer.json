@@ -1,0 +1,16 @@
+{
+    "name": "administrator/rabbit",
+    "description": "laravel rabbit",
+    "autoload": {
+        "psr-4": {
+            "Administrator\\Rabbit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "du",
+            "email": "614790334@qq.com"
+        }
+    ],
+    "require": {}
+}
